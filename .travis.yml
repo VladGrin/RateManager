@@ -5,7 +5,7 @@ jdk:
 deploy:
   provider: heroku
   api_key:
-    secure: $GITHUB_TOKEN
+    secure: 41cac4ce914220fa83e721b95a2a9e30baf92cac
   app: RateManager
   on:
     repo: VladGrin/RateManager
