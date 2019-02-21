@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: $GITHUB_TOKEN
+  app: RateManager
+  on:
+    repo: VladGrin/RateManager
